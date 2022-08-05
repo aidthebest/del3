@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.sql.SQLOutput;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -38,12 +37,6 @@ public class CallbackTest {
         driver.quit();
         driver = null;
     }
-
-//    @Test
-//    void firstTest() {
-//        driver.get("http://localhost:9999");
-//        System.out.println();
-//    }
 
     @Test
     void secondTest() {
